@@ -3,10 +3,10 @@ html, body{
 	width: 100%;
 	height: 100%;
 	margin: 0;
-	padding: 0;
-    background-color: lightgray;
+    padding: 0;
+    font-family: "Arial Bold";
+    background-color: #e9ecef;
 }
-
 
 nav a{
     color: #fff; 
@@ -39,4 +39,142 @@ form button{
 
 #alert, #usernameAlert, #passwordAlert{
     margin-top: 10px;
+}
+
+.flashes{
+	width: 30%;
+	margin: 0 auto;
+    margin-top: 10px; 
+    list-style-type: none;
+    text-align: center;
+}
+
+#sideBarNav {
+    position: fixed;
+    height: 100%;
+    background-color: #343a40 !important;
+}
+
+.feather{
+    width: 18px;
+    height: 18px;
+}
+
+
+.icon{
+    color:#fff !important;
+}
+
+
+
+.jumbotron{
+    color: #343140; 
+    margin-top: 10px;
+}
+
+.card{
+    margin-top: 15px;
+}
+
+
+   
+#RSOContainer, #EventContainer{
+    background-color:  #343a40;
+    margin-top: 15px;
+}
+
+.card .btn, .modal .btnNext, .modal .btnPrevious{
+    background-color: #343a40 !important;
+    border-color: #343a40 !important
+}
+
+/* card hovering*/
+.card:hover{
+    -webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+
+}
+
+.thead-dark{
+    background-color: #343a40;
+}
+
+tbody tr:hover{
+    cursor: pointer;
+}
+
+
+
+/* modal/pill styling*/
+.nav-pills .nav-link.active,
+ .nav-tem >.pill:hover {
+    background-color:  #ede4c7 !important;
+}
+
+.nav-pills a{
+    color:  #343140;
+}
+
+#abilityButtons{
+    margin-top: 15px;
+}
+
+
+/* ability boost badges*/
+#abilityBoostBadges{
+    margin-bottom: 15px;
+}
+
+.abilityBadges{
+    margin-right: 5px;
+}
+
+/*panel for ability selectiong */
+.panel-heading{
+    color: #343a40;
+    font-weight: bold;
+}
+
+.alert{
+    display: none;
+}
+
+/* arrow buttons for point-buy*/
+.arrowBtn{
+    padding-left: 2px;
+    padding-right: 2px;
+    background-color: #e9ecef;
+    border-color: #CED4DA;
+    color: #495057;
+}
+
+.pointbuyArrows{
+    display: none;
+}
+
+
+#pointbuyBadge{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: none;
+}
+
+/*swap abilites panel */
+#swapAbility{
+    display: none;
+}
+
+#equipmentRadioBoxes{
+    margin-top: 15px;
+}
+
+.radioBoxLegend{
+    font-weight: bold;
+}
+
+
+/*for myCharacter.html */
+#abilityScoresPanel{
+    border: 1px solid;
 }
