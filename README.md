@@ -2,9 +2,9 @@
 
 ## REPO Folders
 
-1. Front_End folder contains our html and css files
+1. Front_End folder contains our html,css, js files
 
-2. Static will contain js files for front end
+2. Backend contains our php files
 
 
 
