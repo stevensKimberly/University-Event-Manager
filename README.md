@@ -6,7 +6,7 @@
 
 2. Back_End contains our php files
 
-
+3. JSON defintions : the template to how Frontend and Backend communicates.
 
 
 
