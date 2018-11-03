@@ -1,0 +1,104 @@
+My Events tab click:
+
+Frontend --> backend
+    ?
+
+Backend --> Frontend
+
+    An array of events will be sent
+
+"Events": {
+
+
+            "event1" : {
+                "eventTitle": "..."
+                "rsoHosting": "..."
+                "eventDescription": "..."
+                "eventID": "..."
+            }
+
+             "event2" : {
+                "eventTitle": "..."
+                "rsoHosting": "..."
+                "eventDescription": "..."
+                "eventID": "..."
+            }
+
+            ...
+            ...
+    
+}
+
+************************************************************************************
+
+
+My RSO tab click:
+
+Frontend --> backend
+    ?
+
+Backend --> Frontend
+
+    An array of RSOs will be sent
+
+"RSOs": {
+
+
+            "RSO1" : {
+                "rsoTitle": "..."
+                "rsoType": "..."
+                "rsoDescription": "..."
+                "rsoID": "..."
+            }
+
+             "RSO2" : {
+                "rsoTitle": "..."
+                "rsoType": "..."
+                "rsoDescription": "..."
+                "rsoID": "..."
+            }
+
+            ...
+            ...
+    
+}
+
+
+
+
+
+*****************************************************************************
+
+
+
+
+
+"More info" click in my events tab
+
+Frontend ---> backend
+    "eventID": "...."
+
+
+
+Backend ---> Frontend
+    eventInfo ....
+
+
+
+
+
+******************************************************************************
+
+
+"More info" click in my RSOs tab
+
+
+Frontend ---> backend
+    "rsoID": "...."
+
+
+
+Backend ---> Frontend
+    rsoInfo (need to figure out all the info a rso page will display)
+
+
