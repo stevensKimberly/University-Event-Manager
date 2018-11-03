@@ -105,76 +105,10 @@ tbody tr:hover{
 }
 
 
-
-/* modal/pill styling*/
-.nav-pills .nav-link.active,
- .nav-tem >.pill:hover {
-    background-color:  #ede4c7 !important;
-}
-
-.nav-pills a{
-    color:  #343140;
-}
-
-#abilityButtons{
-    margin-top: 15px;
-}
-
-
-/* ability boost badges*/
-#abilityBoostBadges{
-    margin-bottom: 15px;
-}
-
-.abilityBadges{
-    margin-right: 5px;
-}
-
-/*panel for ability selectiong */
-.panel-heading{
-    color: #343a40;
-    font-weight: bold;
-}
-
 .alert{
     display: none;
 }
 
-/* arrow buttons for point-buy*/
-.arrowBtn{
-    padding-left: 2px;
-    padding-right: 2px;
-    background-color: #e9ecef;
-    border-color: #CED4DA;
-    color: #495057;
-}
-
-.pointbuyArrows{
-    display: none;
-}
-
-
-#pointbuyBadge{
+.searchTable{
     margin-top: 15px;
-    margin-bottom: 15px;
-    display: none;
-}
-
-/*swap abilites panel */
-#swapAbility{
-    display: none;
-}
-
-#equipmentRadioBoxes{
-    margin-top: 15px;
-}
-
-.radioBoxLegend{
-    font-weight: bold;
-}
-
-
-/*for myCharacter.html */
-#abilityScoresPanel{
-    border: 1px solid;
 }
