@@ -4,7 +4,7 @@
 
 1. Front_End folder contains our html,css, js files
 
-2. Backend contains our php files
+2. Back_End contains our php files
 
 
 
